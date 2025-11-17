@@ -1,0 +1,21 @@
+{
+  "name": "breckline",
+  "version": "1.0.0",
+  "description": "Portafolio web de Breckline - Servicios de desarrollo web y marketing digital",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify",
+    "watch": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
+    "dev": "npm run watch"
+  },
+  "keywords": [
+    "portafolio",
+    "desarrollo-web",
+    "marketing-digital"
+  ],
+  "author": "Breckline",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
+
