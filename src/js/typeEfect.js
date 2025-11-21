@@ -3,6 +3,7 @@ const words = [
     "Marketing Digital",
     "Producción Audiovisual"
   ];
+
   let currentWord = 0;
   let currentChar = 0;
   let writing = true;
@@ -31,7 +32,5 @@ const words = [
       }
     }
   }
-  typeEffect();
-
-
   
+  typeEffect();
