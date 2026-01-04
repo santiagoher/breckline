@@ -29,3 +29,4 @@ document.getElementById('mobile-menu-button').addEventListener('click', function
       mobileButton.classList.remove('bg-blue-50', 'text-blue-600');
     }
   });
+
