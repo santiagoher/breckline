@@ -19,8 +19,13 @@
     <link rel="stylesheet" href="https://use.typekit.net/tht5hss.css">
 </head>
 <body>
+    <!-- Scroll progress bar -->
+    <div class="fixed top-0 left-0 w-full h-1 bg-transparent z-50">
+      <div id="scroll-progress" class="h-full w-0 rounded-full" style="background: linear-gradient(90deg, #FF9700 0%, #FFD600 100%);"></div>
+    </div>
+
     <!-- Barra Navegacion -->
-    <nav class="bg-white sticky top-0 z-50">
+    <nav class="bg-white sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between items-center h-20">
             <!-- Logo -->
@@ -480,8 +485,6 @@
         </div>
       </div>
     </section>
-  
-  
 
 
 
@@ -513,7 +516,7 @@
               </li>
     
               <li>
-                <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                <a href="https://www.instagram.com/breckline.agency/" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
                   <span class="sr-only">Instagram</span>
     
                   <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -536,7 +539,7 @@
           </div>
     
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
-            <div>
+              <div>
               <p class="font-medium text-gray-900 dark:text-white">Servicios</p>
     
               <ul class="mt-6 space-y-4 text-sm">
@@ -632,5 +635,6 @@
     <script src="./src/js/main.js"></script>
     <script src="./src/js/navBar.js"></script>
     <script src="./src/js/typeEfect.js"></script>
+    <script src="./src/js/progressBar.js"></script>
   </body>
 </html>
