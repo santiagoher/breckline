@@ -33,6 +33,12 @@ body {
     font-style: normal;
 }
 
+.obviously-subtitle {
+    font-family: "obviously", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .button {
     text-align: center;
     transition: 0.3s ease-in-out;
@@ -293,7 +299,7 @@ button.learn-more .button-text {
     right: 0;
     bottom: 0;
     padding: 0.75rem 0;
-    margin: 0 0 0 1.85rem;
+    margin: 0 0 0 2.5rem;
     color: #282936;
     font-weight: 700;
     line-height: 1.6;
@@ -341,3 +347,5 @@ button:hover .button-text {
             rgba(0, 0, 0, 1) 0%,
             rgba(0, 0, 0, 0) 70%);
 }
+
+[x-cloak] { display: none !important; }
