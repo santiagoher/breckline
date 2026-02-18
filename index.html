@@ -231,8 +231,8 @@
                 </svg>
               </button>
             </div>
-          </div>
-      
+          </div>  
+
           <!-- Mobile Menu -->
           <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg">
             <div class="py-2">
@@ -448,141 +448,436 @@
     </section>
 
     <!-- Main content -->
-<section class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-10">
-  
-  <!-- PRIMERA FILA -->
-  <div class="grid grid-cols-1 md:grid-cols-[1fr_2.5fr] gap-8">
-    <!-- COLUMNA IZQUIERDA (Imagen larga) -->
-    <div class="bg-[#f3f5f7] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-lg flex flex-col justify-between md:hover:bg-white transition duration-200 border order-2 md:order-1">
-      <div>
-        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 obviously-subtitle">Diseño paginas webs</h2>
-        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
-          Impulsa tu presencia digital con un sitio web moderno y funcional para mostrar tus servicios o vender online. Sitios rápidos, atractivos y optimizados para generar más clientes.
-        </p>
+    <section class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-10">
+      
+      <!-- PRIMERA FILA -->
+      <div class="grid grid-cols-1 md:grid-cols-[1fr_2.5fr] gap-8">
+        <!-- COLUMNA IZQUIERDA (Imagen larga) -->
+        <div class="bg-[#f3f5f7] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-lg flex flex-col justify-between md:hover:bg-white transition duration-200 border order-2 md:order-1">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 obviously-subtitle">Diseño paginas webs</h2>
+            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              Impulsa tu presencia digital con un sitio web moderno y funcional para mostrar tus servicios o vender online. Sitios rápidos, atractivos y optimizados para generar más clientes.
+            </p>
+          </div>
+          
+          <!-- Imagen LARGA -->
+          <div class="mt-6 sm:mt-8 lg:mt-10">
+            <img src="./src/assets/images/Responsive.svg"
+                class="w-full h-auto object-cover hover:scale-105 transition duration-300"
+                alt="Imagen larga">
+          </div>
+        </div>
+        
+        <!-- COLUMNA DERECHA: TARJETAS -->
+        <div class="space-y-6 sm:space-y-8 order-1 md:order-2">
+          <!-- TARJETA 1 - CON EFECTO HOVER -->
+          <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
+              <!-- Imagen -->
+              <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
+                <img src="src/assets/images/Soluciones personalizadas.svg" 
+                    class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain" 
+                    alt="Desarrollo y soluciones personalizadas">
+              </div>
+              <!-- Texto -->
+              <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
+                <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-5 obviously-subtitle">
+                  Desarrollo de Soluciones Web Personalizadas y Escalables
+                </h2>
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Diseñamos y desarrollamos sitios web personalizados según los requerimientos de tu proyecto, con funcionalidades a medida y una estructura pensada para ofrecer rendimiento, escalabilidad y una experiencia profesional.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TARJETA 2 - CON EFECTO HOVER -->
+          <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
+              <!-- Imagen -->
+              <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
+                <img src="src/assets/images/seo.svg" 
+                    class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain" 
+                    alt="Posicionamiento SEO breckline">
+              </div>
+              <!-- Texto -->
+              <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
+                <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-5 obviously-subtitle">
+                  Posicionamiento SEO
+                </h2>
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Optimizamos tu sitio web para mejorar su visibilidad en buscadores, aplicando buenas prácticas técnicas, estructura optimizada y rendimiento adecuado para facilitar su indexación y posicionamiento orgánico.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
-      <!-- Imagen LARGA -->
-      <div class="mt-6 sm:mt-8 lg:mt-10">
-        <img src="./src/assets/images/Responsive.svg"
-            class="w-full h-auto object-cover hover:scale-105 transition duration-300"
-            alt="Imagen larga">
+      <!-- SEGUNDA FILA -->
+      <div class="grid grid-cols-1 md:grid-cols-[2.5fr_1fr] gap-8">
+        <!-- COLUMNA IZQUIERDA: DOS TARJETAS -->
+        <div class="space-y-6 sm:space-y-8 order-2 md:order-1">
+          <!-- TARJETA 1 - CON EFECTO HOVER -->
+          <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
+              <!-- Imagen -->
+              <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
+                <img src="src/assets/images/soluciones.svg"
+                    class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain"
+                    alt="Imagen">
+              </div>
+              <!-- Texto -->
+              <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
+                <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-8 obviously-subtitle">
+                  Sistemas Empresariales a Medida
+                </h2>
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Desarrollamos soluciones digitales personalizadas para optimizar y automatizar los procesos de tu empresa. Creamos sistemas adaptados a tus necesidades que permiten gestionar información, mejorar la productividad y tener mayor control de tu operación en tiempo real.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TARJETA 2 - CON EFECTO HOVER -->
+          <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
+              <!-- Imagen -->
+              <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
+                <img src="src/assets/images/2.svg"
+                    class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain"
+                    alt="Imagen">
+              </div>
+              <!-- Texto -->
+              <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
+                <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-8 obviously-subtitle">
+                  Posicionamiento SEO
+                </h2>
+                <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Optimizamos tu sitio web para mejorar su visibilidad en buscadores, aplicando buenas prácticas técnicas, estructura optimizada y rendimiento adecuado para facilitar su indexación y posicionamiento orgánico.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- COLUMNA DERECHA (Imagen larga) -->
+        <div class="bg-[#f3f5f7] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-lg flex flex-col justify-between md:hover:bg-white transition duration-200 border order-1 md:order-2">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 obviously-subtitle">
+              Diseño paginas webs
+            </h2>
+            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              Impulsa tu presencia digital con un sitio web moderno y funcional, ideal para mostrar tus servicios o vender tus productos en una tienda online.
+            </p>
+          </div>
+          
+          <div class="mt-6 sm:mt-8 lg:mt-10">
+            <img src="./src/assets/images/Diseño web breckline.svg"
+                class="w-full h-auto object-cover hover:scale-105 transition duration-300"
+                alt="Imagen larga">
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
     
-    <!-- COLUMNA DERECHA: TARJETAS -->
-    <div class="space-y-6 sm:space-y-8 order-1 md:order-2">
-      <!-- TARJETA 1 - CON EFECTO HOVER -->
-      <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
-        <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
-          <!-- Imagen -->
-          <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
-            <img src="src/assets/images/Soluciones personalizadas.svg" 
-                class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain" 
-                alt="Desarrollo y soluciones personalizadas">
-          </div>
-          <!-- Texto -->
-          <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
-            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-5 obviously-subtitle">
-              Desarrollo de Soluciones Web Personalizadas y Escalables
-            </h2>
-            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              Diseñamos y desarrollamos sitios web personalizados según los requerimientos de tu proyecto, con funcionalidades a medida y una estructura pensada para ofrecer rendimiento, escalabilidad y una experiencia profesional.
-            </p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- TARJETA 2 - CON EFECTO HOVER -->
-      <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
-        <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
-          <!-- Imagen -->
-          <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
-            <img src="src/assets/images/seo.svg" 
-                class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain" 
-                alt="Posicionamiento SEO breckline">
-          </div>
-          <!-- Texto -->
-          <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
-            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-5 obviously-subtitle">
-              Posicionamiento SEO
-            </h2>
-            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              Optimizamos tu sitio web para mejorar su visibilidad en buscadores, aplicando buenas prácticas técnicas, estructura optimizada y rendimiento adecuado para facilitar su indexación y posicionamiento orgánico.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- SEGUNDA FILA -->
-  <div class="grid grid-cols-1 md:grid-cols-[2.5fr_1fr] gap-8">
-    <!-- COLUMNA IZQUIERDA: DOS TARJETAS -->
-    <div class="space-y-6 sm:space-y-8 order-2 md:order-1">
-      <!-- TARJETA 1 - CON EFECTO HOVER -->
-      <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
-        <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
-          <!-- Imagen -->
-          <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
-            <img src="src/assets/images/soluciones.svg"
-                class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain"
-                alt="Imagen">
-          </div>
-          <!-- Texto -->
-          <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
-            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-8 obviously-subtitle">
-              Sistemas Empresariales a Medida
-            </h2>
-            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              Desarrollamos soluciones digitales personalizadas para optimizar y automatizar los procesos de tu empresa. Creamos sistemas adaptados a tus necesidades que permiten gestionar información, mejorar la productividad y tener mayor control de tu operación en tiempo real.
-            </p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- TARJETA 2 - CON EFECTO HOVER -->
-      <div class="bg-[#f3f5f7] rounded-3xl p-4 sm:p-5 shadow-lg border group hover:bg-white transition-all duration-300">
-        <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 transition-all duration-300">
-          <!-- Imagen -->
-          <div class="w-full sm:w-auto flex justify-center transition-all duration-500 ease-out group-hover:scale-110 group-hover:mr-4">
-            <img src="src/assets/images/2.svg"
-                class="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 object-contain"
-                alt="Imagen">
-          </div>
-          <!-- Texto -->
-          <div class="text-center sm:text-left flex-1 transition-all duration-500 ease-out group-hover:translate-x-2">
-            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-8 obviously-subtitle">
-              Posicionamiento SEO
-            </h2>
-            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              Optimizamos tu sitio web para mejorar su visibilidad en buscadores, aplicando buenas prácticas técnicas, estructura optimizada y rendimiento adecuado para facilitar su indexación y posicionamiento orgánico.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- COLUMNA DERECHA (Imagen larga) -->
-    <div class="bg-[#f3f5f7] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-lg flex flex-col justify-between md:hover:bg-white transition duration-200 border order-1 md:order-2">
-      <div>
-        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 obviously-subtitle">
-          Diseño paginas webs
-        </h2>
-        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
-          Impulsa tu presencia digital con un sitio web moderno y funcional, ideal para mostrar tus servicios o vender tus productos en una tienda online.
-        </p>
-      </div>
-      
-      <div class="mt-6 sm:mt-8 lg:mt-10">
-        <img src="./src/assets/images/Diseño web breckline.svg"
-            class="w-full h-auto object-cover hover:scale-105 transition duration-300"
-            alt="Imagen larga">
-      </div>
-    </div>
-  </div>
+    <section class="py-16 px-4 bg-white">
+    <div class="max-w-7xl mx-auto">
 
+        <!-- Título y subtítulo -->
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 obviously-subtitle">
+                Marcas que ya están creciendo con nosotros
+            </h2>
+            <p class="text-sm md:text-base text-gray-600 max-w-3xl mx-auto">
+                Empresas que confiaron en nosotros para llevar su presencia digital al siguiente nivel.
+            </p>
+        </div>
+
+        <!-- Grid de tarjetas de video -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Tarjeta 1 -->
+            <div class="group bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="relative aspect-video bg-gray-200">
+                    <!-- Aquí va el reproductor de video -->
+                    <div style="padding:176.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1165773816?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="example"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="group bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="relative aspect-video bg-gray-200">
+                    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1165777972?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="vd nv clinica_1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="group bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="relative aspect-video bg-gray-200">
+                    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1165778727?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="llano store HD ASMR"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="group bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="relative aspect-video bg-gray-200">
+                    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1165778848?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="video vayu M"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Opcional: Botón para ver más -->
+        <div class="text-center mt-10">
+            <button class="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">
+                Ver más casos de éxito
+            </button>
+        </div>
+
+    </div>
 </section>
 
+    <section class="bg-white py-16 px-4 md:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <!-- Encabezado -->
+        <div class="text-center mb-12">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 obviously-subtitle">
+            Marcas que ya están creciendo con nosotros
+          </h2>
+          <p class="text-sm md:text-base text-gray-600 max-w-3xl mx-auto">Empresas que confiaron en nosotros para llevar su presencia digital al siguiente nivel.</p>
+        </div>
+
+        <!-- Grid de testimonios -->
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+          <!-- Testimonio 1: Tupperware -->
+          <div class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="mb-4">
+
+              <div style="padding:55.77% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1166090132?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="testimonios"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3 mt-10">
+                Cómo Tupperware Transformó $255 USD en 1.449 Registros Efectivos
+              </h3>
+            </div>
+            <p class="text-gray-700 text-lg leading-relaxed">
+              "Gracias a la implementación de la Máquina de Leads logramos llevar tráfico
+              masivo y segmentado a nuestra landing, alcanzando más de 120.000 personas
+              con un costo por registro de solo $0,18 USD. Esto nos permitió captar 1.449
+              nuevos prospectos de manera rápida, rentable y medible."
+            </p>
+          </div>
+
+          <!-- Testimonio 2: Seguros -->
+          <div class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="mb-4">
+              <div style="padding:55.77% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1166090132?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="testimonios"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3 mt-10">
+                De 0 a 865 Leads Calificados al Mes en Seguros
+              </h3>
+            </div>
+            <p class="text-gray-700 text-lg leading-relaxed">
+              "Logramos crear un canal estable y predecible para captar clientes potenciales.
+              En un sector tan competido como el de los seguros, la calidad de los leads
+              marca toda la diferencia, y hoy contamos con un flujo constante que impulsa
+              nuestras ventas."
+            </p>
+          </div>
+        </div>
+      </div>
+ 
+<!-- SECCIÓN PRINCIPAL: dos columnas en lg, centrada y con padding adecuado -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    
+    <!-- Grid: 1 col móvil, 2 columnas en lg con separación -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+      
+      <!-- COLUMNA IZQUIERDA: Texto explicativo + teléfono/email -->
+      <div class="space-y-6">
+        
+        <!-- Títulos principales (exacto como la imagen) -->
+        <div>
+          <h1 class="text-4xl md:text-5xl obviously-subtitle tracking-tight text-gray-900 leading-tight">
+            Cuéntanos tu idea
+          </h1>
+          <p class="text-3xl md:text-4xl text-orange-600 mt-2 leading-tight">
+            Nosotros la hacemos realidad
+          </p>
+        </div>
+
+        <!-- Párrafos descriptivos (mismo texto, con espacios) -->
+        <div class="text-gray-600 text-base md:text-lg space-y-4 leading-relaxed">
+          <p>
+            ¿Tienes un proyecto audiovisual o necesitas una estrategia digital integral? 
+            Realizamos producciones de video de todos los tamaños y presupuestos en Colombia, Latam y USA, desde contenido digital y spots publicitarios hasta documentales corporativos y videos institucionales.
+          </p>
+          <p>
+            Además, desarrollamos estrategias de marketing digital efectivas para atraer clientes potenciales: soluciones web, pauta en redes sociales y Google Ads, y automatizaciones que maximizan el impacto de tu contenido.
+          </p>
+          <p>
+            Entendemos las necesidades de tu marca, objetivos comerciales y audiencia para crear soluciones integrales que generen resultados medibles.
+          </p>
+          <p class="font-medium text-gray-800 pt-1">
+            Cuéntanos tu proyecto y recibe una propuesta personalizada.
+          </p>
+        </div>
+
+        <!-- Teléfono y email (solo texto con íconos emoji para mantener coherencia) -->
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 pt-2">
+          <div class="flex items-center gap-2 text-base font-medium">
+            <span class="text-orange-500 text-xl">📞</span>
+            <span class="text-gray-800">+57 (310) 526–3256</span>
+          </div>
+          <div class="flex items-center gap-2 text-base font-medium">
+            <span class="text-orange-500 text-xl">✉️</span>
+            <span class="text-gray-800">info@enjoydigital.co</span>
+          </div>
+        </div>
+
+        <!-- Detalle sutil de confianza (opcional, para dar contexto) -->
+        <div class="border-l-4 border-orange-400 pl-5 py-2 bg-orange-50 rounded-r-md text-sm text-gray-600 max-w-md">
+          <span>Más de 8 años creando contenido que conecta.</span>
+        </div>
+      </div>
+
+      <!-- COLUMNA DERECHA: FORMULARIO -->
+      <div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-6 md:p-8 w-full max-w-xl lg:max-w-none mx-auto">
+        
+        <!-- IMPORTANTE: todos los estilos son de Tailwind, sin CSS personalizado. El checkbox "no soy robot" se simula con elementos HTML -->
+        <form action="#" method="POST" class="space-y-6">
+          
+          <!-- Campo: Nombre -->
+          <div>
+            <label for="nombre" class="block text-sm font-semibold uppercase tracking-wide text-gray-700 mb-1">
+              Nombre
+            </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Carlos Rodríguez" 
+                   class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:bg-white focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition duration-150 text-gray-800">
+          </div>
+
+          <!-- Campo: Título -->
+          <div>
+            <label for="titulo" class="block text-sm font-semibold uppercase tracking-wide text-gray-700 mb-1">
+              Título
+            </label>
+            <input type="text" id="titulo" name="titulo" placeholder="Ej. Propuesta de video corporativo" 
+                   class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:bg-white focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition duration-150 text-gray-800">
+          </div>
+
+          <!-- Campo: Mensaje (textarea) -->
+          <div>
+            <label for="mensaje" class="block text-sm font-semibold uppercase tracking-wide text-gray-700 mb-1">
+              Mensaje
+            </label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos los detalles de tu proyecto, objetivos o necesidades..." 
+                      class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:bg-white focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition duration-150 text-gray-800 resize-y"></textarea>
+          </div>
+
+          <!-- SECCIÓN: No soy un robot (fiel a la imagen, usando solo Tailwind y HTML sin CSS extra) -->
+          <div class="flex items-center justify-between bg-gray-50 border border-gray-300 rounded-md px-4 py-3 mt-2">
+            <!-- Checkbox simulado: div con border y background, más texto -->
+            <div class="flex items-center gap-3">
+              <!-- Cuadro falso de checkbox (sin input real, pero visualmente igual a un recuadro) -->
+              <div class="w-5 h-5 border-2 border-gray-500 bg-white rounded-sm flex items-center justify-center text-white text-xs font-bold">
+                <!-- vacío, solo el borde. Si quisieras simular checked podrías poner un ícono, pero dejamos vacío como imagen -->
+              </div>
+              <span class="text-sm font-medium text-gray-800 select-none">No soy un robot</span>
+            </div>
+            
+            <!-- Simulación del logo de reCAPTCHA (ícono con gradiente y texto) -->
+            <div class="flex items-center gap-1">
+              <!-- esfera tricolor que recuerda al logo de recaptcha (hecha con gradientes lineales de Tailwind no son directos, pero podemos simular con colores) -->
+              <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-500 via-yellow-500 to-red-500 opacity-80"></div>
+              <span class="text-xs text-gray-400 font-mono"></span>
+            </div>
+          </div>
+
+          <!-- Botón SEND (naranja) -->
+          <div>
+            <button type="submit" class="w-full sm:w-auto px-10 py-4 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-semibold uppercase tracking-wide rounded-lg shadow-md transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2">
+              Send
+            </button>
+          </div>
+
+          <!-- Nota sutil: todos los campos son requeridos (opcional) -->
+          <p class="text-xs text-gray-400 pt-2 border-t border-gray-100">Todos los campos son obligatorios</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Breve explicación (no necesario, pero asegura que es 100% tailwind) -->
+  <!-- 
+    NOTA: El checkbox de "No soy un robot" se ha recreado visualmente con un div vacío para 
+    imitar el diseño de la imagen, sin funcionalidad real de captcha. 
+    Todo el estilo está basado exclusivamente en clases utility de Tailwind.
+  -->
+ <!-- SECCIÓN: Tienes un PROYECTO EN MENTE? Hablemos -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    
+    <!-- Contenedor con fondo gris muy claro y bordes redondeados (opcional para destacar) -->
+    <div class="bg-gray-50 rounded-3xl p-8 md:p-12 lg:p-16 shadow-sm border border-gray-100">
+      
+      <!-- Título principal: dos líneas, con énfasis -->
+      <div class="mb-12 md:mb-16">
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+          Tienes un <span class="text-orange-500 block mt-1">PROYECTO EN MENTE?</span>
+        </h2>
+        <p class="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mt-4 md:mt-6">
+          Hablemos
+        </p>
+      </div>
+
+      <!-- Grid de contactos: 2 columnas en móvil, 4 en desktop (exacto como imagen: WhatsApp, Email, Instagram, Teléfono) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-4 xl:gap-6">
+  
+  <!-- WhatsApp -->
+  <div class="flex flex-col items-start min-w-0">
+    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">WhatsApp</span>
+    <a href="https://wa.me/573125353606" target="_blank" rel="noopener noreferrer" 
+       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-words w-full">
+      +57 (312) 535–3606
+    </a>
+  </div>
+
+  <!-- Email -->
+  <div class="flex flex-col items-start min-w-0">
+    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">Email</span>
+    <a href="mailto:breckline.corporativo@gmail.com" 
+       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-all sm:break-words w-full">
+      breckline.corporativo<br class="hidden sm:block md:hidden">@gmail.com
+    </a>
+  </div>
+
+  <!-- Instagram -->
+  <div class="flex flex-col items-start min-w-0">
+    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">Instagram</span>
+    <a href="https://instagram.com/enjoydigital.co" target="_blank" rel="noopener noreferrer" 
+       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-words w-full">
+      @Breckline
+    </a>
+  </div>
+
+  <!-- Teléfono -->
+  <div class="flex flex-col items-start min-w-0">
+    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">Teléfono</span>
+    <a href="tel:+573125353256" 
+       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-words w-full">
+      +57 (312) 535–3606
+    </a>
+  </div>
+</div>
+
+      <!-- Línea decorativa sutil (opcional, da sensación de completitud) -->
+      <div class="mt-12 pt-6 border-t border-gray-200 text-xs text-gray-400 flex justify-between">
+        <span>Colombia</span>
+        <span>Breckline</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTA: Todos los enlaces son funcionales (WhatsApp, email, Instagram, teléfono) -->
+   
     <!-- Footer -->
     <footer class="bg-white dark:bg-gray-900">
       <div class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
@@ -726,12 +1021,14 @@
           © 2025. Breckline. All rights reserved.
         </p>
       </div>
-    </footer>
+    </footer>     
+      
 
     <!-- Scripts -->
     <script src="./src/js/main.js"></script>
     <script src="./src/js/navBar.js"></script>
     <script src="./src/js/typeEfect.js"></script>
     <script src="./src/js/progressBar.js"></script>
+    <script src="./src/js/observerLogo.js"></script>
   </body>
 </html>

@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+@font-face {
+  font-family: 'Rosnoc';
+  src: url('/fonts/Rosnoc.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-rosnoc {
+  font-family: 'Rosnoc', sans-serif;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -349,3 +360,153 @@ button:hover .button-text {
 }
 
 [x-cloak] { display: none !important; }
+
+
+
+
+.logo-link {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-link::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(
+        115deg,
+        transparent 0%,
+        transparent 30%,
+        rgba(255, 255, 255, 0.1) 35%,
+        rgba(255, 255, 240, 0.3) 40%,
+        rgba(255, 255, 220, 0.6) 45%,
+        rgba(255, 255, 200, 0.9) 50%,
+        rgba(255, 255, 220, 0.6) 55%,
+        rgba(255, 255, 240, 0.3) 60%,
+        rgba(255, 255, 255, 0.1) 65%,
+        transparent 70%,
+        transparent 100%
+    );
+    background-size: 300% 100%;
+    pointer-events: none;
+    border-radius: 8px;
+    filter: blur(3px);
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+/* Clase que se activará con JavaScript - ANIMACIÓN SUAVE Y CONTINUA */
+.logo-link.animate-shine::after {
+    opacity: 0.8;
+    animation: shineSuave 12s ease-in-out infinite;
+}
+
+@keyframes shineSuave {
+    0% {
+        background-position: -250% 0;
+        opacity: 0.1;
+        filter: blur(4px);
+    }
+    10% {
+        background-position: -200% 0;
+        opacity: 0.3;
+    }
+    20% {
+        background-position: -150% 0;
+        opacity: 0.6;
+        filter: blur(3px);
+    }
+    30% {
+        background-position: -100% 0;
+        opacity: 0.8;
+    }
+    40% {
+        background-position: -50% 0;
+        opacity: 0.9;
+        filter: blur(2px);
+    }
+    45% {
+        background-position: -25% 0;
+        opacity: 1;
+    }
+    50% {
+        background-position: 0% 0;
+        opacity: 1;
+        filter: blur(1px);
+    }
+    55% {
+        background-position: 25% 0;
+        opacity: 0.9;
+    }
+    60% {
+        background-position: 50% 0;
+        opacity: 0.8;
+        filter: blur(2px);
+    }
+    70% {
+        background-position: 100% 0;
+        opacity: 0.6;
+    }
+    80% {
+        background-position: 150% 0;
+        opacity: 0.4;
+        filter: blur(3px);
+    }
+    90% {
+        background-position: 200% 0;
+        opacity: 0.2;
+    }
+    100% {
+        background-position: 250% 0;
+        opacity: 0.1;
+        filter: blur(4px);
+    }
+}
+
+/* Pequeño brillo adicional en el centro */
+.logo-link.animate-shine::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        circle at 50% 50%,
+        rgba(255, 255, 220, 0.2) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+    border-radius: inherit;
+    opacity: 0;
+    animation: brilloCentral 12s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes brilloCentral {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    60% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Eliminamos cualquier efecto hover */
+.logo-link:hover::after,
+.logo-link:hover::before {
+    animation: none;
+    opacity: 0;
+}
