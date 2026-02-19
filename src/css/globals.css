@@ -510,3 +510,72 @@ button:hover .button-text {
     animation: none;
     opacity: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Definición de la propiedad para que la animación sea fluida */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.glow-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150%; /* Más grande que el contenedor para cubrir las esquinas al rotar */
+  height: 150%;
+  background-image: conic-gradient(
+    from var(--angle),
+    #ff4545, #00ff99, #006aff, #ff0095, #ff4545
+  );
+  opacity: 0; /* Oculto por defecto */
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+/* Solo se activa cuando haces hover en la sección o el contenedor */
+.group\/card:hover .glow-border {
+  opacity: 1;
+  animation: rotate-rgb 3s linear infinite;
+}
+
+@keyframes rotate-rgb {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
