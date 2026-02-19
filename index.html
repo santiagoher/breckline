@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Breckline - Servicios profesionales de desarrollo web y marketing digital. Transformamos tu presencia digital.">
     <title>Breckline</title>
-
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PJJGPRWR');</script>
+    <!-- End Google Tag Manager -->
     <!-- Tailwind css-->
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="stylesheet" href="./src/css/globals.css">
@@ -19,13 +25,41 @@
     <link rel="stylesheet" href="https://use.typekit.net/tht5hss.css">
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJJGPRWR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+     
+    <!-- COOKIE BANNER -->
+    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-white shadow-2xl border-t border-gray-200 p-6 z-50 hidden">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        
+        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+          Utilizamos cookies para mejorar tu experiencia, analizar el tráfico y personalizar contenido. 
+          Puedes aceptar todas o configurarlas. 
+          <a href="/politica-de-privacidad.html" class="text-orange-600 font-medium underline">
+            Leer política de privacidad
+          </a>
+        </p>
+
+        <div class="flex gap-3">
+          <button id="reject-cookies" class="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100 transition">
+            Rechazar
+          </button>
+          <button id="accept-cookies" class="px-5 py-2 text-sm bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition">
+            Aceptar
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Scroll progress bar -->
     <div class="fixed top-0 left-0 w-full h-1 bg-transparent z-50">
       <div id="scroll-progress" class="h-full w-0 rounded-full" style="background: linear-gradient(90deg, #FF9700 0%, #FFD600 100%);"></div>
     </div>
 
     <!-- Barra Navegacion -->
-    <nav class="bg-white sticky top-0 z-40">
+    <nav class="bg-white sticky top-0 z-40 border-b-4">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between items-center h-20">
             <!-- Logo -->
@@ -695,50 +729,34 @@
       <!-- COLUMNA IZQUIERDA: Texto explicativo + teléfono/email -->
       <div class="space-y-6">
         
-        <!-- Títulos principales (exacto como la imagen) -->
+        <!-- Títulos principales -->
         <div>
           <h1 class="text-4xl md:text-5xl obviously-subtitle tracking-tight text-gray-900 leading-tight">
             Cuéntanos tu idea
           </h1>
-          <p class="text-3xl md:text-4xl text-orange-600 mt-2 leading-tight">
+          <p class="text-3xl md:text-3xl text-orange-600 mt-2 leading-tight obviously-subtitle">
             Nosotros la hacemos realidad
           </p>
         </div>
 
-        <!-- Párrafos descriptivos (mismo texto, con espacios) -->
+        <!-- Párrafos descriptivos -->
         <div class="text-gray-600 text-base md:text-lg space-y-4 leading-relaxed">
           <p>
-            ¿Tienes un proyecto audiovisual o necesitas una estrategia digital integral? 
-            Realizamos producciones de video de todos los tamaños y presupuestos en Colombia, Latam y USA, desde contenido digital y spots publicitarios hasta documentales corporativos y videos institucionales.
+            ¿Necesitas una web que venda o un video que impacte?
+            En Brekline desarrollamos landing pages estratégicas y sitios web corporativos diseñados para generar resultados reales y potenciar tu presencia digital.
           </p>
           <p>
-            Además, desarrollamos estrategias de marketing digital efectivas para atraer clientes potenciales: soluciones web, pauta en redes sociales y Google Ads, y automatizaciones que maximizan el impacto de tu contenido.
+            Además, producimos videos de marketing que fortalecen tu marca y conectan con tu audiencia: contenido digital, videos promocionales y piezas audiovisuales enfocadas en conversión.
           </p>
           <p>
-            Entendemos las necesidades de tu marca, objetivos comerciales y audiencia para crear soluciones integrales que generen resultados medibles.
+            Combinamos desarrollo web, producción audiovisual y estrategia digital para atraer clientes potenciales, posicionar tu negocio y maximizar el impacto de tu contenido.
           </p>
           <p class="font-medium text-gray-800 pt-1">
             Cuéntanos tu proyecto y recibe una propuesta personalizada.
           </p>
         </div>
-
-        <!-- Teléfono y email (solo texto con íconos emoji para mantener coherencia) -->
-        <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 pt-2">
-          <div class="flex items-center gap-2 text-base font-medium">
-            <span class="text-orange-500 text-xl">📞</span>
-            <span class="text-gray-800">+57 (310) 526–3256</span>
-          </div>
-          <div class="flex items-center gap-2 text-base font-medium">
-            <span class="text-orange-500 text-xl">✉️</span>
-            <span class="text-gray-800">info@enjoydigital.co</span>
-          </div>
-        </div>
-
-        <!-- Detalle sutil de confianza (opcional, para dar contexto) -->
-        <div class="border-l-4 border-orange-400 pl-5 py-2 bg-orange-50 rounded-r-md text-sm text-gray-600 max-w-md">
-          <span>Más de 8 años creando contenido que conecta.</span>
-        </div>
       </div>
+
 
       <!-- COLUMNA DERECHA: FORMULARIO -->
       <div class="bg-white rounded-2xl shadow-xl border border-gray-200 p-6 md:p-8 w-full max-w-xl lg:max-w-none mx-auto">
@@ -813,68 +831,74 @@
     Todo el estilo está basado exclusivamente en clases utility de Tailwind.
   -->
  <!-- SECCIÓN: Tienes un PROYECTO EN MENTE? Hablemos -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <section class="max-w-7xl mx-auto sm:px-6 lg:px-8 py-12 md:py-24 group/section">
+  <div class="relative p-[2px] rounded-[2.5rem] overflow-hidden transition-all duration-500 group/card">
     
-    <!-- Contenedor con fondo gris muy claro y bordes redondeados (opcional para destacar) -->
-    <div class="bg-gray-50 rounded-3xl p-8 md:p-12 lg:p-16 shadow-sm border border-gray-100">
+    <span class="glow-border"></span>
+
+    <div class="relative z-10 bg-white rounded-[calc(2.5rem-2px)] p-8 md:p-16 lg:p-20 
+                shadow-[0_20px_50px_rgba(0,0,0,0.04)] 
+                border border-gray-100
+                transition-all duration-500 ease-in-out
+                hover:shadow-[0_30px_60px_rgba(0,0,0,0.08)]">
       
-      <!-- Título principal: dos líneas, con énfasis -->
-      <div class="mb-12 md:mb-16">
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
-          Tienes un <span class="text-orange-500 block mt-1">PROYECTO EN MENTE?</span>
-        </h2>
-        <p class="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mt-4 md:mt-6">
-          Hablemos
-        </p>
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-orange-50 rounded-full blur-3xl opacity-0 group-hover/section:opacity-100 transition-opacity duration-700"></div>
+
+      <div class="mb-16 md:mb-24 relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-8">
+        <div>
+          <h2 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-gray-900 leading-[0.9]">
+            ¿Tienes un <br>
+            <span class="text-orange-500 italic">proyecto</span><br>
+            en mente?
+          </h2>
+        </div>
+        <div class="flex items-center">
+          <a href="#" class="inline-flex items-center gap-4 bg-gray-900 text-white px-8 py-4 rounded-full font-bold text-lg md:text-xl hover:bg-orange-600 hover:scale-105 transition-all duration-300 shadow-xl shadow-gray-200">
+            Hablemos
+          </a>
+        </div>
       </div>
 
-      <!-- Grid de contactos: 2 columnas en móvil, 4 en desktop (exacto como imagen: WhatsApp, Email, Instagram, Teléfono) -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-4 xl:gap-6">
-  
-  <!-- WhatsApp -->
-  <div class="flex flex-col items-start min-w-0">
-    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">WhatsApp</span>
-    <a href="https://wa.me/573125353606" target="_blank" rel="noopener noreferrer" 
-       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-words w-full">
-      +57 (312) 535–3606
-    </a>
-  </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8 lg:gap-x-12 relative z-10">
+                <div class="flex flex-col items-start group min-w-0">
+                    <span class="text-[10px] uppercase tracking-[0.2em] text-orange-500 font-bold mb-4 whitespace-nowrap">WhatsApp</span>
+                    <a href="https://wa.me/573125353606" target="_blank" rel="noopener noreferrer" class="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors whitespace-nowrap">
+                        +57 312 535 3606
+                    </a>
+                </div>
 
-  <!-- Email -->
-  <div class="flex flex-col items-start min-w-0">
-    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">Email</span>
-    <a href="mailto:breckline.corporativo@gmail.com" 
-       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-all sm:break-words w-full">
-      breckline.corporativo<br class="hidden sm:block md:hidden">@gmail.com
-    </a>
-  </div>
+                <div class="flex flex-col items-start group min-w-0">
+                    <span class="text-[10px] uppercase tracking-[0.2em] text-orange-500 font-bold mb-4 whitespace-nowrap">Email</span>
+                    <a href="mailto:breckline.corporativo@gmail.com" class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors break-all sm:break-words">
+                        breckline.corporativo@gmail.com
+                    </a>
+                </div>
 
-  <!-- Instagram -->
-  <div class="flex flex-col items-start min-w-0">
-    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">Instagram</span>
-    <a href="https://instagram.com/enjoydigital.co" target="_blank" rel="noopener noreferrer" 
-       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-words w-full">
-      @Breckline
-    </a>
-  </div>
+                <div class="flex flex-col items-start group min-w-0">
+                    <span class="text-[10px] uppercase tracking-[0.2em] text-orange-500 font-bold mb-4 whitespace-nowrap">Instagram</span>
+                    <a href="https://instagram.com/enjoydigital.co" target="_blank" rel="noopener noreferrer" class="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors whitespace-nowrap">
+                        @Breckline
+                    </a>
+                </div>
 
-  <!-- Teléfono -->
-  <div class="flex flex-col items-start min-w-0">
-    <span class="text-xs sm:text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1 sm:mb-2">Teléfono</span>
-    <a href="tel:+573125353256" 
-       class="text-base sm:text-lg md:text-xl font-medium text-gray-900 hover:text-orange-600 transition-colors break-words w-full">
-      +57 (312) 535–3606
-    </a>
-  </div>
-</div>
+                <div class="flex flex-col items-start group min-w-0">
+                    <span class="text-[10px] uppercase tracking-[0.2em] text-orange-500 font-bold mb-4 whitespace-nowrap">Teléfono</span>
+                    <a href="tel:+573125353256" class="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors whitespace-nowrap">
+                        +57 312 535 3606
+                    </a>
+                </div>
+            </div>
 
-      <!-- Línea decorativa sutil (opcional, da sensación de completitud) -->
-      <div class="mt-12 pt-6 border-t border-gray-200 text-xs text-gray-400 flex justify-between">
-        <span>Colombia</span>
-        <span>Breckline</span>
-      </div>
+            <div class="mt-24 pt-8 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-6">
+                <div class="text-[10px] uppercase tracking-widest text-gray-400 font-bold flex gap-8">
+                    <span>Villavicencio, Colombia</span>
+                    <span>©2026 Breckline</span>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- NOTA: Todos los enlaces son funcionales (WhatsApp, email, Instagram, teléfono) -->
    
@@ -1029,6 +1053,6 @@
     <script src="./src/js/navBar.js"></script>
     <script src="./src/js/typeEfect.js"></script>
     <script src="./src/js/progressBar.js"></script>
-    <script src="./src/js/observerLogo.js"></script>
+    <script src="./src/js/cookies.js"></script>
   </body>
 </html>
