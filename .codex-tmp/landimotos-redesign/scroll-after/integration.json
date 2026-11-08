@@ -1,0 +1,14 @@
+[
+  {
+    "width": 1440,
+    "processes": "six selectors, keyboard navigation, reduced motion control, real step progression and lower text preserved",
+    "heroAnchor": "desktop rail link returns to initial composition",
+    "wheel": "scroll drives movement; no timed continuation at rest"
+  },
+  {
+    "width": 390,
+    "processes": "six selectors, keyboard navigation, reduced motion control, real step progression and lower text preserved",
+    "heroAnchor": "rail remains hidden; native fragment navigation returns to initial composition",
+    "wheel": "scroll drives movement; no timed continuation at rest"
+  }
+]

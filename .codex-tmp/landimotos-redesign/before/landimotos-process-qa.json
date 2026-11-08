@@ -1,0 +1,168 @@
+{
+  "url": "http://127.0.0.1:3000/proyectos/portal-logistico-landimotos",
+  "report": [
+    {
+      "name": "neutral state and entry threshold",
+      "status": "passed"
+    },
+    {
+      "name": "threshold jitter preserves the active run",
+      "status": "passed"
+    },
+    {
+      "name": "pending results and gradual detail reveal",
+      "status": "passed"
+    },
+    {
+      "name": "ordered completion: dispatch",
+      "status": "passed",
+      "detail": {
+        "durations": [
+          1700,
+          2000,
+          2400,
+          1900,
+          1900
+        ]
+      }
+    },
+    {
+      "name": "ordered completion: routes",
+      "status": "passed",
+      "detail": {
+        "durations": [
+          1800,
+          2300,
+          2200,
+          2000,
+          2300
+        ]
+      }
+    },
+    {
+      "name": "ordered completion: service",
+      "status": "passed",
+      "detail": {
+        "durations": [
+          1800,
+          2500,
+          2000,
+          2100,
+          1900
+        ]
+      }
+    },
+    {
+      "name": "ordered completion: whatsapp",
+      "status": "passed",
+      "detail": {
+        "durations": [
+          1600,
+          1900,
+          2000,
+          2300,
+          2000
+        ]
+      }
+    },
+    {
+      "name": "ordered completion: admin",
+      "status": "passed",
+      "detail": {
+        "durations": [
+          1700,
+          1900,
+          2400,
+          1900,
+          2200
+        ]
+      }
+    },
+    {
+      "name": "ordered completion: indicators",
+      "status": "passed",
+      "detail": {
+        "durations": [
+          1700,
+          2200,
+          2300,
+          2500,
+          2300
+        ]
+      }
+    },
+    {
+      "name": "rapid selection, revisiting and same-process restart",
+      "status": "passed"
+    },
+    {
+      "name": "full viewport exit suspends and reentry restarts",
+      "status": "passed"
+    },
+    {
+      "name": "synthetic tab visibility preserves remaining step time",
+      "status": "failed",
+      "message": "step resumes remaining time instead of starting its duration again\n\n1 !== 2\n"
+    },
+    {
+      "name": "keyboard selection and visible focus",
+      "status": "passed"
+    },
+    {
+      "name": "manual reduced motion completes immediately and keeps future selections static",
+      "status": "passed"
+    },
+    {
+      "name": "responsive stable layout: 1440px",
+      "status": "passed",
+      "detail": {
+        "height": 783.765625
+      }
+    },
+    {
+      "name": "responsive stable layout: 1024px",
+      "status": "passed",
+      "detail": {
+        "height": 800.265625
+      }
+    },
+    {
+      "name": "responsive stable layout: 768px",
+      "status": "passed",
+      "detail": {
+        "height": 838.5
+      }
+    },
+    {
+      "name": "responsive stable layout: 390px",
+      "status": "failed",
+      "message": "scenario switching changes height: 1476.4375,1481.21875,1476.4375,1476.4375,1476.4375,1476.4375"
+    },
+    {
+      "name": "responsive stable layout: 320px",
+      "status": "passed",
+      "detail": {
+        "height": 1552.703125
+      }
+    },
+    {
+      "name": "operating-system reduced motion is immediate",
+      "status": "passed"
+    },
+    {
+      "name": "no browser runtime errors",
+      "status": "passed"
+    }
+  ],
+  "failures": [
+    {
+      "name": "synthetic tab visibility preserves remaining step time",
+      "message": "step resumes remaining time instead of starting its duration again\n\n1 !== 2\n"
+    },
+    {
+      "name": "responsive stable layout: 390px",
+      "message": "scenario switching changes height: 1476.4375,1481.21875,1476.4375,1476.4375,1476.4375,1476.4375"
+    }
+  ],
+  "browserErrors": []
+}

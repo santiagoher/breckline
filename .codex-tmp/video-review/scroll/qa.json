@@ -1,0 +1,93 @@
+{
+  "reports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "padding": "22px",
+      "gap": 88,
+      "initialVideoTop": 442.96875,
+      "visibleVideo": 457.03125,
+      "samples": 64,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "padding": "22px",
+      "gap": 88,
+      "initialVideoTop": 437.625,
+      "visibleVideo": 330.375,
+      "samples": 62,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "padding": "22px",
+      "gap": 88,
+      "initialVideoTop": 443.78125,
+      "visibleVideo": 636.21875,
+      "samples": 68,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "padding": "22px",
+      "gap": 88,
+      "initialVideoTop": 395.90625,
+      "visibleVideo": 204.09375,
+      "samples": 51,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "padding": "22px",
+      "gap": 88,
+      "initialVideoTop": 284.59375,
+      "visibleVideo": 365.859375,
+      "samples": 39,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "padding": "10px",
+      "gap": 44,
+      "initialVideoTop": 261.125,
+      "visibleVideo": 178.3125,
+      "samples": 28,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "padding": "10px",
+      "gap": 44,
+      "initialVideoTop": 284.125,
+      "visibleVideo": 138.9375,
+      "samples": 27,
+      "motion": "down/up, no overlaps, no jumps, no scaling, unchanged video time",
+      "playback": "autoplay, keyboard pause/resume, wheel while playing, persistent pause, runtime motion preference"
+    },
+    {
+      "width": 1440,
+      "reducedMotion": "static at all scroll positions, initially paused, manual playback works"
+    },
+    {
+      "width": 390,
+      "reducedMotion": "static at all scroll positions, initially paused, manual playback works"
+    },
+    {
+      "blockedAutoplay": "accurate play icon, no retry on scroll, manual resume works"
+    }
+  ],
+  "errors": []
+}

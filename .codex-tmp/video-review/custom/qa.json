@@ -1,0 +1,108 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "reducedInitially": false,
+      "nativeControls": false,
+      "loop": true,
+      "muted": true,
+      "playsInline": true,
+      "ratio": 1.777784940691078,
+      "gap": 72,
+      "copyWidth": 820,
+      "frameWidth": 1314.671875,
+      "border": "1px",
+      "radius": "24px",
+      "buttonSize": [
+        48,
+        48
+      ],
+      "overflow": false,
+      "playback": "autoplay/reduced motion, pause, resume, keyboard, viewport persistence, external events passed"
+    },
+    {
+      "width": 1024,
+      "reducedInitially": false,
+      "nativeControls": false,
+      "loop": true,
+      "muted": true,
+      "playsInline": true,
+      "ratio": 1.777794737163441,
+      "gap": 72,
+      "copyWidth": 820,
+      "frameWidth": 931.953125,
+      "border": "1px",
+      "radius": "24px",
+      "buttonSize": [
+        48,
+        48
+      ],
+      "overflow": false,
+      "playback": "autoplay/reduced motion, pause, resume, keyboard, viewport persistence, external events passed"
+    },
+    {
+      "width": 768,
+      "reducedInitially": false,
+      "nativeControls": false,
+      "loop": true,
+      "muted": true,
+      "playsInline": true,
+      "ratio": 1.777832694921537,
+      "gap": 72,
+      "copyWidth": 696.4375,
+      "frameWidth": 696.4375,
+      "border": "1px",
+      "radius": "24px",
+      "buttonSize": [
+        48,
+        48
+      ],
+      "overflow": false,
+      "playback": "autoplay/reduced motion, pause, resume, keyboard, viewport persistence, external events passed"
+    },
+    {
+      "width": 390,
+      "reducedInitially": true,
+      "nativeControls": false,
+      "loop": true,
+      "muted": true,
+      "playsInline": true,
+      "ratio": 1.7777777777777777,
+      "gap": 36,
+      "copyWidth": 339,
+      "frameWidth": 339,
+      "border": "1px",
+      "radius": "15px",
+      "buttonSize": [
+        44,
+        44
+      ],
+      "overflow": false,
+      "playback": "autoplay/reduced motion, pause, resume, keyboard, viewport persistence, external events passed"
+    },
+    {
+      "width": 320,
+      "reducedInitially": true,
+      "nativeControls": false,
+      "loop": true,
+      "muted": true,
+      "playsInline": true,
+      "ratio": 1.7777777777777777,
+      "gap": 36,
+      "copyWidth": 269,
+      "frameWidth": 269,
+      "border": "1px",
+      "radius": "15px",
+      "buttonSize": [
+        44,
+        44
+      ],
+      "overflow": false,
+      "playback": "autoplay/reduced motion, pause, resume, keyboard, viewport persistence, external events passed"
+    },
+    {
+      "autoplayBlocked": "play icon remains accurate; retry and manual pause work without automatic retries"
+    }
+  ],
+  "errors": []
+}

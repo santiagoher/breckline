@@ -1,0 +1,83 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "status": "passed",
+      "audit": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "order": [
+          "enfoque",
+          "procesos",
+          "galeria",
+          "alcance"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 1024,
+      "status": "passed",
+      "audit": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "order": [
+          "enfoque",
+          "procesos",
+          "galeria",
+          "alcance"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 768,
+      "status": "passed",
+      "audit": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "order": [
+          "enfoque",
+          "procesos",
+          "galeria",
+          "alcance"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 390,
+      "status": "passed",
+      "audit": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "order": [
+          "enfoque",
+          "procesos",
+          "galeria",
+          "alcance"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 320,
+      "status": "passed",
+      "audit": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "order": [
+          "enfoque",
+          "procesos",
+          "galeria",
+          "alcance"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "noJavaScript": "Editorial content and navigation remain visible"
+    }
+  ],
+  "errors": []
+}

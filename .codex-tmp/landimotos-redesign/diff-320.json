@@ -1,0 +1,933 @@
+[
+  {
+    "i": 19,
+    "before": {
+      "tag": "ASIDE",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(245, 243, 255)",
+        "background-color": "rgb(27, 27, 27)",
+        "padding": "26px 4px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px 0px 0px 16px",
+        "display": "none"
+      }
+    },
+    "after": {
+      "tag": "ASIDE",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(245, 243, 255)",
+        "background-color": "rgb(27, 27, 27)",
+        "padding": "26px 4px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px 0px 0px 16px",
+        "display": "none"
+      }
+    }
+  },
+  {
+    "i": 20,
+    "before": {
+      "tag": "SPAN",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "24px",
+        "font-weight": "750",
+        "line-height": "24px",
+        "color": "rgb(245, 243, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "flex"
+      }
+    },
+    "after": {
+      "tag": "SPAN",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "24px",
+        "font-weight": "750",
+        "line-height": "24px",
+        "color": "rgb(245, 243, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "flex"
+      }
+    }
+  },
+  {
+    "i": 21,
+    "before": {
+      "tag": "SPAN",
+      "text": "↗",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "13px",
+        "font-weight": "750",
+        "line-height": "13px",
+        "color": "rgb(167, 139, 250)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    },
+    "after": {
+      "tag": "SPAN",
+      "text": "↗",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "13px",
+        "font-weight": "750",
+        "line-height": "13px",
+        "color": "rgb(167, 139, 250)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    }
+  },
+  {
+    "i": 22,
+    "before": {
+      "tag": "NAV",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(245, 243, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "40px 0px 0px",
+        "gap": "14px",
+        "border-radius": "0px",
+        "display": "grid"
+      }
+    },
+    "after": {
+      "tag": "NAV",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(245, 243, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "40px 0px 0px",
+        "gap": "14px",
+        "border-radius": "0px",
+        "display": "grid"
+      }
+    }
+  },
+  {
+    "i": 23,
+    "before": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    },
+    "after": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    }
+  },
+  {
+    "i": 24,
+    "before": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    },
+    "after": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    }
+  },
+  {
+    "i": 25,
+    "before": {
+      "tag": "rect",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "rect",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  },
+  {
+    "i": 26,
+    "before": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  },
+  {
+    "i": 27,
+    "before": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgb(51, 43, 66)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    },
+    "after": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgb(51, 43, 66)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    }
+  },
+  {
+    "i": 28,
+    "before": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    },
+    "after": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    }
+  },
+  {
+    "i": 29,
+    "before": {
+      "tag": "rect",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "rect",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  },
+  {
+    "i": 30,
+    "before": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(203, 184, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  },
+  {
+    "i": 31,
+    "before": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    },
+    "after": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    }
+  },
+  {
+    "i": 32,
+    "before": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    },
+    "after": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    }
+  },
+  {
+    "i": 33,
+    "before": {
+      "tag": "rect",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "rect",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  },
+  {
+    "i": 34,
+    "before": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  },
+  {
+    "i": 35,
+    "before": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "auto 0px 0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    },
+    "after": {
+      "tag": "A",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "auto 0px 0px",
+        "gap": "normal",
+        "border-radius": "9px",
+        "display": "grid"
+      }
+    }
+  },
+  {
+    "i": 36,
+    "before": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    },
+    "after": {
+      "tag": "svg",
+      "text": null,
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "block"
+      }
+    }
+  },
+  {
+    "i": 37,
+    "before": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        387.98,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    },
+    "after": {
+      "tag": "path",
+      "text": "",
+      "bounds": [
+        -14,
+        388.41,
+        0,
+        0
+      ],
+      "css": {
+        "font-family": "\"Montserrat Variable\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "color": "rgb(182, 173, 199)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "border-radius": "0px",
+        "display": "inline"
+      }
+    }
+  }
+]

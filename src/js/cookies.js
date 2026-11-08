@@ -30,3 +30,4 @@
     localStorage.setItem("cookie-consent", "rejected");
     banner.classList.add("hidden");
   });
+

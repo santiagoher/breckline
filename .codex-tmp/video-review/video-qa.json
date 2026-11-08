@@ -1,0 +1,106 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "motion": "no-preference",
+      "before": {
+        "paused": true,
+        "controls": true,
+        "muted": true,
+        "autoplay": false,
+        "preload": "none",
+        "poster": "/assets/images/Intranet landimotos panel operativo.png",
+        "playsInline": true,
+        "width": 1314.671875,
+        "height": 739.5,
+        "time": 0
+      },
+      "loaded": {
+        "duration": 111.5,
+        "width": 2560,
+        "height": 1440,
+        "layoutHeight": 739.5,
+        "error": null
+      },
+      "range": 206,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "motion": "no-preference",
+      "before": {
+        "paused": true,
+        "controls": true,
+        "muted": true,
+        "autoplay": false,
+        "preload": "none",
+        "poster": "/assets/images/Intranet landimotos panel operativo.png",
+        "playsInline": true,
+        "width": 696.4375,
+        "height": 391.734375,
+        "time": 0
+      },
+      "loaded": {
+        "duration": 111.5,
+        "width": 2560,
+        "height": 1440,
+        "layoutHeight": 391.734375,
+        "error": null
+      },
+      "range": 206,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "motion": "reduce",
+      "before": {
+        "paused": true,
+        "controls": true,
+        "muted": true,
+        "autoplay": false,
+        "preload": "none",
+        "poster": "/assets/images/Intranet landimotos panel operativo.png",
+        "playsInline": true,
+        "width": 339,
+        "height": 190.6875,
+        "time": 0
+      },
+      "loaded": {
+        "duration": 111.5,
+        "width": 2560,
+        "height": 1440,
+        "layoutHeight": 190.6875,
+        "error": null
+      },
+      "range": 206,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "motion": "reduce",
+      "before": {
+        "paused": true,
+        "controls": true,
+        "muted": true,
+        "autoplay": false,
+        "preload": "none",
+        "poster": "/assets/images/Intranet landimotos panel operativo.png",
+        "playsInline": true,
+        "width": 269,
+        "height": 151.3125,
+        "time": 0
+      },
+      "loaded": {
+        "duration": 111.5,
+        "width": 2560,
+        "height": 1440,
+        "layoutHeight": 151.3125,
+        "error": null
+      },
+      "range": 206,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "bytes": 4129684
+}

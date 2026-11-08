@@ -1,0 +1,150 @@
+{
+  "report": [
+    {
+      "width": 1440,
+      "source": "/assets/images/Intranet landimotos panel operativo.png",
+      "natural": [
+        2559,
+        1352
+      ],
+      "image": [
+        1314.671875,
+        694.578125
+      ],
+      "imageFillsSection": true,
+      "centered": true,
+      "textAlign": "center",
+      "gap": 36,
+      "textWidth": 820,
+      "fullWidthMedia": true,
+      "removedText": false,
+      "hasVideo": false,
+      "hasControls": false,
+      "overflow": false,
+      "css": {
+        "border": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "width": 1024,
+      "source": "/assets/images/Intranet landimotos panel operativo.png",
+      "natural": [
+        2559,
+        1352
+      ],
+      "image": [
+        931.953125,
+        492.375
+      ],
+      "imageFillsSection": true,
+      "centered": true,
+      "textAlign": "center",
+      "gap": 36,
+      "textWidth": 820,
+      "fullWidthMedia": true,
+      "removedText": false,
+      "hasVideo": false,
+      "hasControls": false,
+      "overflow": false,
+      "css": {
+        "border": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "width": 768,
+      "source": "/assets/images/Intranet landimotos panel operativo.png",
+      "natural": [
+        2559,
+        1352
+      ],
+      "image": [
+        696.4375,
+        367.9375
+      ],
+      "imageFillsSection": true,
+      "centered": true,
+      "textAlign": "center",
+      "gap": 36,
+      "textWidth": 696.4375,
+      "fullWidthMedia": true,
+      "removedText": false,
+      "hasVideo": false,
+      "hasControls": false,
+      "overflow": false,
+      "css": {
+        "border": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "width": 390,
+      "source": "/assets/images/Intranet landimotos panel operativo.png",
+      "natural": [
+        2559,
+        1352
+      ],
+      "image": [
+        339,
+        179.09375
+      ],
+      "imageFillsSection": true,
+      "centered": true,
+      "textAlign": "center",
+      "gap": 24,
+      "textWidth": 339,
+      "fullWidthMedia": true,
+      "removedText": false,
+      "hasVideo": false,
+      "hasControls": false,
+      "overflow": false,
+      "css": {
+        "border": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "width": 320,
+      "source": "/assets/images/Intranet landimotos panel operativo.png",
+      "natural": [
+        2559,
+        1352
+      ],
+      "image": [
+        269,
+        142.109375
+      ],
+      "imageFillsSection": true,
+      "centered": true,
+      "textAlign": "center",
+      "gap": 24,
+      "textWidth": 269,
+      "fullWidthMedia": true,
+      "removedText": false,
+      "hasVideo": false,
+      "hasControls": false,
+      "overflow": false,
+      "css": {
+        "border": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "errors": []
+}

@@ -6,7 +6,7 @@ const supabaseKey = "sb_publishable_N2GJ8I6jpIZElitRuR4ktQ_5bY3O_hv";
 window.sb = supabase.createClient(supabaseUrl, supabaseKey);
 const form = document.getElementById("contactForm");
 
-form.addEventListener("submit", async (e) => {
+form.addEventListener("submit", async (e) => {  
   e.preventDefault();
 
   const nombre = document.getElementById("nombre").value.trim();
